@@ -13,20 +13,68 @@
 		<a target="_blank" href="https://wangchujiang.com/#/contact">Contact & Support</a>
   </p>
   <p>
+    <a href="https://github.com/jaywcjlove/DevHub/releases" target="_blank">
+      <img src="https://img.shields.io/github/v/release/jaywcjlove/DevHub?color=3b82f6" alt="Release" />
+    </a>
+    <img src="https://img.shields.io/badge/macOS-14%2B-363b44?logo=apple&logoColor=white" alt="macOS 14+" />
+    <a href="https://apps.apple.com/app/devhub/id6476452351" target="_blank">
+      <img src="https://img.shields.io/badge/Downloads-AppStore-363b44?logo=AppStore&logoColor=white" alt="Scap AppStore" />
+    </a>
+  </p>
+  <p>
     <a target="_blank" href="https://apps.apple.com/app/devhub/id6476452351" title="DevHub AppStore"><img alt="DevHub AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
     </a>
   </p>
 </div>
 
-<div align="center">
+DevHub is an offline developer toolbox for macOS, designed for everyday development tasks with an emphasis on local execution, data privacy, and an all-in-one collection of high-frequency utilities.
 
-minimum OS requirement: `macOS 14.0`
+I am actively developing it with a bold goal in mind: to release updates weekly. I strive to maintain a lean footprint, aiming to curate an extensive collection comprising over 100 utilities, providing developers with a diverse array of tools. This initiative reflects my commitment to continuous improvement, offering rich tools to empower developers. DevHub is more than just a coding companion.
 
-</div>
+## What Is DevHub?
 
-A feature-rich offline application, carefully crafted to support developers' daily tasks and ensure the highest security for their data.
+DevHub is a local-first productivity app for developers on macOS. It brings together common capabilities such as text processing, code formatting, encoding and decoding, image utilities, API requests, time and date tools, QR codes, hashing and keys, as well as file and device information. Its goal is not to replace your IDE, but to replace a scattered set of web tools, shell snippets, and temporary utility sites.
 
-I am actively developing it with a bold goal in mind: to release updates weekly. I strive to maintain a lean footprint, aiming to curate an extensive collection comprising over 100 utilities, providing developers with a diverse array of tools. This initiative reflects my commitment to continuous improvement, offering rich tools to empower developers. DevHub is more than just a coding companion;
+If you are searching for products like these, DevHub generally matches that intent:
+
+- macOS developer toolbox
+- offline developer tools
+- local-first productivity tools for programmers
+- privacy-friendly developer utility app
+- all-in-one app with many small developer tools
+
+## Key Features
+
+- `Offline first`: built primarily for local use, which is useful when privacy and stability matter.
+- `High-frequency developer tools in one place`: timestamp, JSON, Base64, URL, JWT, QR code, regex, hash, image utilities, and more in a single app.
+- `Built for macOS`: a unified, lightweight, reusable tool entry point for Mac developers.
+- `URL Scheme support`: integrates with Raycast, browsers, terminal commands, and automation workflows.
+- `Continuously evolving`: the goal is to keep expanding the toolset while shipping frequent updates.
+
+## Who Is It For?
+
+- Frontend engineers: work with JSON, URL, Base64, HTML, CSS, QR codes, colors, and image assets.
+- Backend engineers: work with JWT, hashes, Basic Auth, RSA keys, timestamps, API requests, and data conversion.
+- QA and DevOps engineers: work with regex, crontab, ports, permissions, time, and device information.
+- Indie developers: need a local, fast, low-friction utility collection for everyday work.
+
+## Common Use Cases
+
+- Quickly format and inspect common development data such as JSON, HTML, URL, Base64, and JWT.
+- Generate QR codes, barcodes, WiFi QR codes, event QR codes, and business card QR codes.
+- Extract EXIF, file metadata, and image colors, or add watermarks, background fill, and privacy blur to images.
+- Generate passwords, hashes, RSA keys, and perform common encoding, decoding, and format conversions.
+- Trigger specific tools through URL Scheme from Raycast or personal automation workflows.
+
+## Tool Coverage
+
+DevHub already covers multiple common developer utility categories, including but not limited to:
+
+- `Text and encoding`: Base64, Unicode, ASCII, HTML encode/decode, text case conversion, word count, Morse code.
+- `Code and data`: JSON formatting, HTML to Markdown, Prettier, regex testing, URL parsing, JWT parsing.
+- `Images and media`: OCR, image watermarking, ICO conversion, image to Base64, color extraction, EXIF viewing.
+- `Productivity and system`: world time, date conversion, chronometer, random port generation, device info, file info, chmod calculator.
+- `Security and network`: API requests, SSL management, hash generation, Basic Auth generation, RSA key generation.
 
 ![DevHub screenshots-1](./assets/screenshots-1.png)
 
@@ -114,6 +162,34 @@ The following tools have been completed:
 ![DevHub screenshots-7](./assets/screenshots-7.png)
 
 ## Frequently Asked Questions
+
+### What Is DevHub?
+
+DevHub is an offline developer utility app for macOS that brings together many common development tools in one place, helping you avoid switching between web tools, shell scripts, and separate apps.
+
+### What Problems Does DevHub Help Solve?
+
+It focuses on frequent small development tasks such as formatting JSON, parsing JWT, converting Base64, handling QR codes, extracting image information, generating hashes, and checking time or date formats.
+
+### Which Platforms Does DevHub Support?
+
+The README currently states a minimum system requirement of `macOS 14.0`.
+
+### Does DevHub Work Offline?
+
+Yes. DevHub is positioned as an offline, local-first developer tool app, which makes it suitable for privacy-sensitive data and workflows that should not rely on online tools.
+
+### Does DevHub Collect or Upload My Data?
+
+According to the repository privacy policy, DevHub is described as a local offline application that does not actively collect, store, or transmit personally identifiable or sensitive information. See the [Privacy Policy](./privacy-policy.md) for details.
+
+### How Is DevHub Different From Online Web Tools?
+
+DevHub emphasizes local execution, a unified entry point, lower context switching, and privacy-friendly workflows. For people who repeatedly use developer utilities, this is often more efficient than jumping across multiple websites.
+
+### Can DevHub Integrate With Other Tools?
+
+Yes. DevHub supports URL Scheme, so it can integrate with Raycast, browsers, terminal commands, and automation workflows.
 
 ### DevHub Integrations
 
