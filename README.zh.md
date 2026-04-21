@@ -16,12 +16,12 @@
       <img src="https://img.shields.io/github/v/release/jaywcjlove/DevHub?color=3b82f6" alt="Release" />
     </a>
     <img src="https://img.shields.io/badge/macOS-14%2B-363b44?logo=apple&logoColor=white" alt="macOS 14+" />
-    <a href="https://apps.apple.com/app/devhub/id6476452351" target="_blank">
+    <a href="https://jaywcjlove.github.io/maslink/?id=6476452351" target="_blank">
       <img src="https://img.shields.io/badge/Downloads-AppStore-363b44?logo=AppStore&logoColor=white" alt="Scap AppStore" />
     </a>
   </p>
   <p>
-    <a target="_blank" href="https://apps.apple.com/app/devhub/id6476452351" title="DevHub AppStore"><img alt="DevHub AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+    <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6476452351" title="DevHub AppStore"><img alt="DevHub AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
     </a>
   </p>
 </div>
